@@ -5,9 +5,10 @@
 function classificarNumero(numero) {
   // TODO:
   // Descubra se o número é positivo, negativo ou zero.
-  If (numero === 0) {
-    return "O número é zero."
-  } 
+
+  if (numero === 0) {
+    return "O número é positivo.";
+  }
   // TODO:
   // Quando o número não for zero, descubra também se ele é par ou ímpar.
   const sinal = numero > 0 ? "Positivo" : "Negativo";

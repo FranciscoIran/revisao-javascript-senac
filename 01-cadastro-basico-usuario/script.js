@@ -23,3 +23,15 @@
 
 // TODO 7:
 // Utilize typeof para verificar o tipo de cada variável criada.
+
+
+const nomeUsuario = "Francisco";
+var idade = "25";
+const email = "teste@gmail.com";
+var usuarioLogado = true;
+var ultimoAcesso = null; 
+
+console.log(`Nome: ${nomeUsuario} | Idade: ${idade}`)
+//typeof e para saber o tipo de variavel
+console.log(typeof(nomeUsuario))
+
